@@ -188,7 +188,8 @@ Service
 </mxfile>
 
 Create an environment (.env) file to connect the game with your game API
-Example : 
-  API_BASE_URL=https://link/game
-  API_BEARER=token
-  API_SALT_PASSWORD=salt
+
+Example : (.env.dev)
+  - API_BASE_URL=https://link/game
+  - API_BEARER=token
+  - API_SALT_PASSWORD=salt
