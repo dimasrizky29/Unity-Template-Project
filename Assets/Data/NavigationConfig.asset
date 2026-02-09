@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801567bbda0ab1f46b163adfb1fc9c7d, type: 3}
+  m_Name: NavigationConfig
+  m_EditorClassIdentifier: Assembly-CSharp::NavigationConfig
+  Routes:
+  - Route: 0
+    Flags: 4
+    Type: 0
+    TargetScene: Startup
+    Prefab:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - Route: 1
+    Flags: 4
+    Type: 0
+    TargetScene: AuthMenu
+    Prefab:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - Route: 2
+    Flags: 4
+    Type: 0
+    TargetScene: AuthMenu
+    Prefab:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - Route: 3
+    Flags: 9
+    Type: 0
+    TargetScene: LobbyMenu
+    Prefab:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - Route: 4
+    Flags: 3
+    Type: 1
+    TargetScene: LobbyMenu
+    Prefab:
+      m_AssetGUID: dd0d6260f1d71404193e50089cf53513
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
