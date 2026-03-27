@@ -196,3 +196,10 @@ Example : (.env.dev)
   - API_BEARER=token
   - API_SALT_PASSWORD=salt
   - WEBSOCKET_URL=wss://link/game
+
+
+Additional Service :
+- Firebase (authentication & Messaging)
+- Google SignIn
+  
+note* add the SDKs (firebase & google signin) if you want those additional service to work
