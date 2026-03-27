@@ -1,6 +1,6 @@
 # Unity-Template-Project
 Strucktur Project
-- Startup 
+- Startup (App Bootstrap, Auto SignIn)
 - Auth Menu (Login, Register, Token)
 - Lobby Menu (User Profile)
 
@@ -8,6 +8,7 @@ Feature
 - MVP (Model View Presenter)
 - UniTask
 - DI (VContainer)
+- Assembly Definitions
 
 Service
 - Navigation Service (Route panel and scene)
