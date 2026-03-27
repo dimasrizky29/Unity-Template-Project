@@ -16,6 +16,7 @@ Service
 - Addressable Asset
 - Global UI
 - Audio Service
+- Config (.env.dev & .env.prod)
   
 [Template-Base-Flow.drawio](https://github.com/user-attachments/files/25179380/Template-Base-Flow.drawio)
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
@@ -194,3 +195,4 @@ Example : (.env.dev)
   - API_BASE_URL=https://link/game
   - API_BEARER=token
   - API_SALT_PASSWORD=salt
+  - WEBSOCKET_URL=wss://link/game
