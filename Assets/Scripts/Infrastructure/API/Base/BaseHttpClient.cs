@@ -2,6 +2,7 @@ using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine.Networking;
+using VContainer;
 
 namespace Infrastructure.Networking
 {
@@ -12,6 +13,9 @@ namespace Infrastructure.Networking
 
     public class BaseHttpClient : IHttpClient
     {
+        [Inject]
+        public BaseHttpClient() { }
+
         public async UniTask<string> SendAsync(UnityWebRequest request, CancellationToken ct)
         {
             try

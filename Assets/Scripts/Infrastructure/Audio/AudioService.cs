@@ -20,6 +20,9 @@ public class AudioService : IAudioService, System.IDisposable
     private float _sfxVolume = 1f;
     private float _bgmVolume = 1f;
 
+    public bool IsBgmMuted => _isBgmMuted;
+    public bool IsSfxMuted => _isSfxMuted;
+
     // Cache handle addressables agar bisa direlease
     private Dictionary<string, AsyncOperationHandle<AudioClip>> _loadedClips = new();
 
@@ -100,7 +103,8 @@ public class AudioService : IAudioService, System.IDisposable
         AudioSource source = GetPooledSource();
         source.transform.position = position;
         source.gameObject.SetActive(true);
-        source.spatialBlend = 1f; // 3D Sound
+        //source.spatialBlend = 1f; // 3D Sound
+        source.spatialBlend = .8f; // semi 3D Sound
         source.minDistance = 2f;
         source.maxDistance = 20f;
         source.volume = entry.volume * _sfxVolume;

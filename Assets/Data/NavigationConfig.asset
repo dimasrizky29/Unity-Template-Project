@@ -56,7 +56,7 @@ MonoBehaviour:
   - Route: 4
     Flags: 3
     Type: 1
-    TargetScene: LobbyMenu
+    TargetScene: 
     Prefab:
       m_AssetGUID: dd0d6260f1d71404193e50089cf53513
       m_SubObjectName: 

@@ -1,0 +1,20 @@
+{
+    "name": "Game.Scopes",
+    "rootNamespace": "",
+    "references": [
+        "GUID:18eff34fea48b2c41ac0e0d6b24416be",
+        "GUID:68b53e4ef9c59d94f8c3847b1d7a9a89",
+        "GUID:5dd7c88dddc2ab741add2e128f0c8f8a",
+        "GUID:3cba69357b873f64b8356ecc16e6aa45",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

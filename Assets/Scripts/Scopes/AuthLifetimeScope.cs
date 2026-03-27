@@ -16,6 +16,6 @@ public class AuthLifetimeScope : LifetimeScope
 
         // 2. Daftarkan Logika (Plain C#)
         // VContainer akan otomatis memberikan 'authView' ke constructor Presenter ini
-        builder.Register<AuthFlowPresenters>(Lifetime.Scoped);
+        builder.Register<IGoogleSignInService, GoogleSignInService>(Lifetime.Scoped);
     }
 }

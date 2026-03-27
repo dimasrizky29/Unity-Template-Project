@@ -712,8 +712,6 @@ GameObject:
   - component: {fileID: 8567904596961671836}
   - component: {fileID: 1872095274204739535}
   - component: {fileID: 6988535985753296938}
-  - component: {fileID: 5047037720518880436}
-  - component: {fileID: 7483711332788147746}
   m_Layer: 5
   m_Name: LoadingPanel
   m_TagString: Untagged
@@ -780,31 +778,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!225 &5047037720518880436
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4897994269683038108}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
---- !u!114 &7483711332788147746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4897994269683038108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78eee26a3ed720f45ba649ebd71a927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AppPagePanel
-  fadeDuration: 0.15
 --- !u!1 &5138662496533361309
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +828,7 @@ MonoBehaviour:
   autoRun: 1
   autoInjectGameObjects: []
   globalUIView: {fileID: 1926869742103975791}
+  audioLibrary: {fileID: 11400000, guid: d5d374d2a6eddf2468729eee23b82e0a, type: 2}
   navigationConfig: {fileID: 11400000, guid: a7b4460f71fcf404c8a4e6b3027c0abf, type: 2}
 --- !u!1 &5534888535838830465
 GameObject:
@@ -904,11 +878,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5534888535838830465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fd972aa1ee36814e9fff18c5bf25d4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 618c0b181a7a10045b88bc6b30e70590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GlobalUIView
   _windowLayer: {fileID: 6192121865494024614}
   _popupLayer: {fileID: 9175622196874828164}
+  loadingFullPanel: {fileID: 4897994269683038108}
   loadingOverlay: {fileID: 4897994269683038108}
   loadingText: {fileID: 8415354093855349079}
   alertPanel: {fileID: 8264888182727831760}
@@ -1129,8 +1104,6 @@ GameObject:
   - component: {fileID: 6412354864618395604}
   - component: {fileID: 1424821856138682165}
   - component: {fileID: 7602742380567386745}
-  - component: {fileID: 2158012005122250158}
-  - component: {fileID: 64129268749801857}
   m_Layer: 5
   m_Name: InfoPanel
   m_TagString: Untagged
@@ -1196,28 +1169,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!225 &2158012005122250158
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8264888182727831760}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
---- !u!114 &64129268749801857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8264888182727831760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78eee26a3ed720f45ba649ebd71a927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AppPagePanel
-  fadeDuration: 0.15
