@@ -18,7 +18,7 @@ Service
 - Audio Service
 - Config (.env.dev & .env.prod)
   
-![Uploading Template-Base-Flow (1).drawio.svg…]()
+![Architecture Diagram](./Template-Base-Flow.drawio.svg)
 
 Create an environment (.env) file to connect the game with your game API
 
