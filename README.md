@@ -9,6 +9,7 @@ Feature
 - UniTask
 - DI (VContainer)
 - Assembly Definitions
+- Unit Testing
 
 Service
 - Navigation Service (Route panel and scene)
