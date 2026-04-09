@@ -29,7 +29,7 @@
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
     },
@@ -74,7 +74,7 @@
     },
     "com.unity.ai.generators": {
       "version": "1.5.0-pre.2",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.sprite": "1.0.0",
@@ -108,7 +108,7 @@
     },
     "com.unity.ai.toolkit": {
       "version": "1.5.0-pre.2",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
@@ -127,7 +127,7 @@
     },
     "com.unity.cloud.gltfast": {
       "version": "6.14.1",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.24",
@@ -370,6 +370,65 @@
       "source": "git",
       "dependencies": {},
       "hash": "177dbda557fd652ce7f5d1647a3621653e094373"
+    },
+    "org.nuget.castle.core": {
+      "version": "5.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.diagnostics.eventlog": "4.7.0",
+        "org.nuget.system.reflection.emit": "4.7.0"
+      },
+      "url": "https://unitynuget-registry.openupm.com"
+    },
+    "org.nuget.nsubstitute": {
+      "version": "5.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.castle.core": "5.1.1",
+        "org.nuget.system.threading.tasks.extensions": "4.4.0"
+      },
+      "url": "https://unitynuget-registry.openupm.com"
+    },
+    "org.nuget.system.diagnostics.eventlog": {
+      "version": "4.7.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.security.principal.windows": "4.7.0"
+      },
+      "url": "https://unitynuget-registry.openupm.com"
+    },
+    "org.nuget.system.reflection.emit": {
+      "version": "4.7.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.reflection.emit.ilgeneration": "4.7.0"
+      },
+      "url": "https://unitynuget-registry.openupm.com"
+    },
+    "org.nuget.system.reflection.emit.ilgeneration": {
+      "version": "4.7.0",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unitynuget-registry.openupm.com"
+    },
+    "org.nuget.system.security.principal.windows": {
+      "version": "4.7.0",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unitynuget-registry.openupm.com"
+    },
+    "org.nuget.system.threading.tasks.extensions": {
+      "version": "4.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unitynuget-registry.openupm.com"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

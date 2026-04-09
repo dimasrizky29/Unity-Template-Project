@@ -3,7 +3,6 @@
     "com.unity.2d.enhancers": "1.0.0",
     "com.unity.addressables.android": "1.0.9",
     "com.unity.ai.assistant": "1.5.0-pre.2",
-    "com.unity.ai.generators": "1.5.0-pre.2",
     "com.unity.ai.inference": "2.5.0",
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.burst": "1.8.27",
@@ -19,6 +18,7 @@
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.9",
     "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.17.0",
+    "org.nuget.nsubstitute": "5.3.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
@@ -53,5 +53,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Unity-NuGet",
+      "url": "https://unitynuget-registry.openupm.com",
+      "scopes": [
+        "org.nuget"
+      ]
+    }
+  ]
 }
