@@ -16,7 +16,7 @@ Service
 - API Service
 - Addressable Asset
 - Global UI
-- Audio Service
+- Audio Service (from com.dimas.audioservice package)
 - Config (.env.dev & .env.prod)
   
 ![Architecture Diagram](./Template-Base-Flow.drawio.svg)
