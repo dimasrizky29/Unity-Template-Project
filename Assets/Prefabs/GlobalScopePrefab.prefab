@@ -828,7 +828,7 @@ MonoBehaviour:
   autoRun: 1
   autoInjectGameObjects: []
   globalUIView: {fileID: 1926869742103975791}
-  audioLibrary: {fileID: 11400000, guid: d5d374d2a6eddf2468729eee23b82e0a, type: 2}
+  audioLibrary: {fileID: 11400000, guid: a161ae2adabab9946bf9184bb46bcbd4, type: 2}
   navigationConfig: {fileID: 11400000, guid: a7b4460f71fcf404c8a4e6b3027c0abf, type: 2}
 --- !u!1 &5534888535838830465
 GameObject:

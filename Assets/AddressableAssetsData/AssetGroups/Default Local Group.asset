@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 4bc6fd1a353959440b63db041efe1e47
   m_SerializeEntries:
+  - m_GUID: aa0b0a2153fc7154896c51c64ac165f7
+    m_Address: Packages/com.unity_84b3bb65eed9dd219507.audioservice/Samples/Example/ButtonGeneral.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dd0d6260f1d71404193e50089cf53513
     m_Address: Assets/Prefabs/ProfilePanel.prefab
     m_ReadOnly: 0

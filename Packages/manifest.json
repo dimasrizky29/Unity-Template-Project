@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.unity.2d.enhancers": "1.0.0",
     "com.unity.addressables.android": "1.0.9",
     "com.unity.ai.assistant": "1.5.0-pre.2",
@@ -17,6 +18,7 @@
     "com.unity.timeline": "1.8.10",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.9",
+    "com.unity_84b3bb65eed9dd219507.audioservice": "https://github.com/dimasrizky29/com.dimas.audioservice.git",
     "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.17.0",
     "org.nuget.nsubstitute": "5.3.0",
     "com.unity.modules.accessibility": "1.0.0",
